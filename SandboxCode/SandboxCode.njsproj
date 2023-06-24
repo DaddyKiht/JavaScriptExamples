@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d7914ea1-f5d1-4b1e-94df-ab278db2542d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Practicing-basics\Switches.js</StartupFile>
+    <StartupFile>Chapter 2 Exercises\LoopingATriangle.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="Chapter 2 Exercises\LoopingATriangle.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="Practicing-basics\Switches.js">
       <SubType>Code</SubType>
@@ -36,6 +39,7 @@
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Chapter 2 Exercises\" />
     <Folder Include="Practicing-basics\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
