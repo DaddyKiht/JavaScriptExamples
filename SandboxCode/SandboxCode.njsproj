@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="Chapter 2 Exercises\FizzBuzz.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Chapter 2 Exercises\LoopingATriangle.js">
       <SubType>Code</SubType>
     </Content>
