@@ -15,3 +15,18 @@
 //When you have a program that generates this pattern, define a binding size = 8 and change the program so that it works for any size,
 //	outputting a grid of the given width and height.
 
+let boardSize = 8;
+let boardString = "";
+
+for (let currentRow = 1; currentRow <= boardSize; currentRow++) {
+	for (let currentCol = 1; currentCol <= boardSize; currentCol++) {
+		if ((currentRow + currentCol) % 2 != 0) {
+			boardString += "#";
+		}
+		else {
+			boardString += " ";
+		}
+	}
+	boardString += `\n`;
+}
+console.log(boardString);
